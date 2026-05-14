@@ -1,0 +1,9 @@
+# Docker
+postgres_data/
+
+# PostgreSQL
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
