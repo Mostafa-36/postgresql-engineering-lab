@@ -91,26 +91,26 @@ This removes all persisted database data.
 
 # Project Structure
 
+```text
 postgresql-engineering-lab/
 │
 ├── docker-compose.yml
 │
 ├── postgres/
-│ ├── init/
-│ │ └── 01-schema.sql
-│ │ └── 02-seed.sql
-│ │ └── 03-indexes.sql
-│ │ └── 04-accounts.sql
-│ │
-│ └── config/
-│ └── postgresql.conf
+│   ├── init/
+│   │   ├── 01-schema.sql
+│   │   ├── 02-seed.sql
+│   │   ├── 03-indexes.sql
+│   │   └── 04-accounts.sql
+│   │
+│   └── config/
+│       └── postgresql.conf
 │
 ├── .gitignore
 ├── screenshots/
 │
 └── README.md
-
----
+```
 
 # Why PostgreSQL Instead of MySQL?
 
