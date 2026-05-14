@@ -156,7 +156,7 @@ This repository demonstrates practical understanding of:
 - Bitmap Heap Scan
 - Composite indexes
 - MVCC
-- Locks & Deadlocks
+- Locks & Isolation Levels
 - WAL internals
 - Crash recovery
 - Isolation levels
